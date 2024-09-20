@@ -1,0 +1,50 @@
+2024-09-18 21:35:03 [CREATE] Karla Perez Created successfully
+2024-09-18 21:35:05 [CREATE] Quintin Lopez Created successfully
+2024-09-18 21:35:07 [UPDATE] 0 Modified Documents({'name': 'Fernando', 'surname': 'Gomez'})
+2024-09-18 21:35:09 [DELETE] Beatriz Cruz Satisfactorily eliminated
+2024-09-18 21:35:11 [UPDATE] 0 Modified Documents({'name': 'Pablo', 'surname': 'Morales'})
+2024-09-18 21:35:13 [UPDATE] 0 Modified Documents({'name': 'Rosa', 'surname': 'Hernandez'})
+2024-09-18 21:35:15 [UPDATE] 0 Modified Documents({'name': 'Fernando', 'surname': 'Gonzalez'})
+2024-09-18 21:35:17 [DELETE] Isabel Flores Satisfactorily eliminated
+2024-09-18 21:35:19 [UPDATE] 0 Modified Documents({'name': 'David', 'surname': 'Hernandez'})
+2024-09-18 21:35:21 [READ] {'name': 'Gabriela', 'surname': 'Ortiz'} Not Found
+2024-09-18 21:35:23 [DELETE] Elena Lopez Satisfactorily eliminated
+2024-09-18 21:35:25 [CREATE] Beatriz Ramirez Created successfully
+2024-09-18 21:35:27 [READ] {'_id': ObjectId('66eb7fc9c875f667c6def196'), 'name': 'Quintin', 'surname': 'Lopez'}
+2024-09-18 21:35:29 [DELETE] Beatriz Gonzalez Satisfactorily eliminated
+2024-09-18 21:35:31 [READ] {'name': 'Ana', 'surname': 'Sanchez'} Not Found
+2024-09-18 21:35:34 [READ] {'name': 'Gabriela', 'surname': 'Perez'} Not Found
+2024-09-18 21:35:36 [READ] {'name': 'Carlos', 'surname': 'Sanchez'} Not Found
+2024-09-18 21:35:38 [READ] {'name': 'Luis', 'surname': 'Cruz'} Not Found
+2024-09-18 21:35:40 [READ] {'name': 'Gabriela', 'surname': 'Ramos'} Not Found
+2024-09-18 21:35:42 [DELETE] Teresa Lopez Satisfactorily eliminated
+2024-09-18 21:35:44 [READ] {'name': 'Rosa', 'surname': 'Lopez'} Not Found
+2024-09-18 21:35:46 [READ] {'name': 'Rosa', 'surname': 'Vargas'} Not Found
+2024-09-18 21:35:48 [CREATE] Fernando Rivera Created successfully
+2024-09-18 21:35:50 [UPDATE] 0 Modified Documents({'name': 'Rosa', 'surname': 'Rivera'})
+2024-09-18 21:35:52 [CREATE] David Ramirez Created successfully
+2024-09-18 21:35:54 [READ] {'name': 'Javier', 'surname': 'Garcia'} Not Found
+2024-09-18 21:35:56 [CREATE] Javier Martinez Created successfully
+2024-09-18 21:35:58 [DELETE] Isabel Ortiz Satisfactorily eliminated
+2024-09-18 21:36:00 [DELETE] Gabriela Gomez Satisfactorily eliminated
+2024-09-18 21:36:02 [DELETE] Nicolas Hernandez Satisfactorily eliminated
+2024-09-18 21:36:04 [DELETE] Carlos Cruz Satisfactorily eliminated
+2024-09-18 21:36:06 [UPDATE] 0 Modified Documents({'name': 'Karla', 'surname': 'Torres'})
+2024-09-18 21:36:08 [CREATE] Gabriela Gutierrez Created successfully
+2024-09-18 21:36:10 [CREATE] Quintin Perez Created successfully
+2024-09-18 21:36:12 [UPDATE] 0 Modified Documents({'name': 'Gabriela', 'surname': 'Cruz'})
+2024-09-18 21:36:14 [READ] {'name': 'Beatriz', 'surname': 'Gomez'} Not Found
+2024-09-18 21:36:16 [READ] {'name': 'Gabriela', 'surname': 'Flores'} Not Found
+2024-09-18 21:36:18 [DELETE] Pablo Sanchez Satisfactorily eliminated
+2024-09-18 21:36:20 [DELETE] Beatriz Garcia Satisfactorily eliminated
+2024-09-18 21:36:22 [READ] {'name': 'Rosa', 'surname': 'Garcia'} Not Found
+2024-09-18 21:36:24 [CREATE] Pablo Flores Created successfully
+2024-09-18 21:36:26 [UPDATE] 0 Modified Documents({'name': 'Isabel', 'surname': 'Torres'})
+2024-09-18 21:36:28 [CREATE] Isabel Ramos Created successfully
+2024-09-18 21:36:30 [DELETE] Teresa Ortiz Satisfactorily eliminated
+2024-09-18 21:36:32 [READ] {'name': 'Nicolas', 'surname': 'Perez'} Not Found
+2024-09-18 21:36:34 [CREATE] Luis Ramos Created successfully
+2024-09-18 21:36:36 [CREATE] Luis Torres Created successfully
+2024-09-18 21:36:38 [DELETE] Hugo Chavez Satisfactorily eliminated
+2024-09-18 21:36:41 [CREATE] Nicolas Gutierrez Created successfully
+2024-09-18 21:36:43 [READ] {'name': 'Sergio', 'surname': 'Torres'} Not Found

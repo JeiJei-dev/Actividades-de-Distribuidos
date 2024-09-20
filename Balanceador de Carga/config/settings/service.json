@@ -1,0 +1,9 @@
+{
+  "logger": [
+    "http://logger1:3001",
+    "http://logger2:3002",
+    "http://logger3:3003",
+    "http://logger4:3004",
+    "http://logger5:3005"
+  ]
+}

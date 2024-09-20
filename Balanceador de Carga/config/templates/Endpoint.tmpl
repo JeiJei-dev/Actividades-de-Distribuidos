@@ -1,0 +1,6 @@
+
+{{define "Endpoint"}}
+{{$service := .service}}
+
+{{ template "LoggerApiEndpoint" $service.logger}}
+{{end}}

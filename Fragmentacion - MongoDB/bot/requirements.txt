@@ -1,0 +1,6 @@
+dnspython==2.6.1
+keyboard==0.13.5
+pymongo==4.8.0
+setuptools==72.1.0
+six==1.16.0
+wheel==0.43.0

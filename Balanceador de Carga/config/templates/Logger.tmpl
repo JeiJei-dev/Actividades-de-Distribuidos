@@ -1,0 +1,39 @@
+{{define "LoggerApiEndpoint"}}
+{{$host := .}}
+{
+    "endpoint": "/api/get-connections",
+    "method": "GET",
+    "input_headers": ["*"],
+    "output_encoding": "no-op",
+    "extra_config": {},
+    "backend": [
+        {
+            "url_pattern": "/api/get-connections",
+            "encoding": "no-op",
+            "sd": "static",
+            "method": "GET",
+            "extra_config": {},
+            "host": {{ marshal  $host }},
+            "disable_host_sanitize": true
+        }
+    ]
+},
+{
+    "endpoint": "/api/new-connection",
+    "method": "POST",
+    "input_headers": ["*"],
+    "output_encoding": "no-op",
+    "extra_config": {},
+    "backend": [
+        {
+            "url_pattern": "/api/new-connection",
+            "encoding": "no-op",
+            "sd": "static",
+            "method": "POST",
+            "extra_config": {},
+            "host": {{ marshal  $host }},
+            "disable_host_sanitize": true
+        }
+    ]
+}
+{{end}}

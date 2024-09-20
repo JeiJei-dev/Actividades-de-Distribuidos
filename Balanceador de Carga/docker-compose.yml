@@ -1,0 +1,65 @@
+version: '3'
+services:
+  krakend:
+    image: devopsfaith/krakend
+    ports:
+      - 3000:8080
+    volumes:
+      - ./config:/etc/config
+
+    environment:
+      FC_ENABLE: '1'
+      FC_TEMPLATES: '/etc/config/templates'
+      FC_SETTINGS: '/etc/config/settings'
+      # FC_OUT: '/etc/config/krakend-out.json'
+    command: ['run', '-dc', '/etc/config/krakend.tmpl']
+
+  logger1:
+    build:
+      context: .
+      target: install-dependencies
+    command: npm start auth -- --watch -- logger-port=3001
+    volumes:
+      - ./src:/user/src/app/src
+    ports:
+      - '3001:3001'
+
+  logger2:
+    build:
+      context: .
+      target: install-dependencies
+    command: npm start auth -- --watch -- logger-port=3002
+    volumes:
+      - ./src:/user/src/app/src
+    ports:
+      - '3002:3002'
+
+  logger3:
+    build:
+      context: .
+      target: install-dependencies
+    command: npm start auth -- --watch -- logger-port=3003
+    volumes:
+      - ./src:/user/src/app/src
+    ports:
+      - '3003:3003'
+
+  logger4:
+    build:
+      context: .
+      target: install-dependencies
+    command: npm start auth -- --watch -- logger-port=3004
+    volumes:
+      - ./src:/user/src/app/src
+    ports:
+      - '3004:3004'
+
+  logger5:
+    build:
+      context: .
+      target: install-dependencies
+    command: npm start auth -- --watch -- logger-port=3005
+    volumes:
+      - ./src:/user/src/app/src
+    ports:
+      - '3005:3005'
