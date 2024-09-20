@@ -10,6 +10,8 @@ replicación hecha en postgresql
 archivos de configuracion del postgresql para permitir la replica
 - pg_hba.txt
 - postgresql.conf
+
+```bash
 ## INSTALACIÓN DE LA ULTIMA VERSION DE POSTGRESQL EN UBUNTU SERVER 22
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 
